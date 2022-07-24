@@ -1,0 +1,129 @@
+.App-logo {
+  height: 50vh;
+  pointer-events: none;
+  margin-left: 3vw;
+}
+
+.App-contents {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 5vw;
+}
+
+.Main-text {
+  /* position: absolute; */
+  width: 50vw;
+
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  letter-spacing: -0.035em;
+  /* padding: 5vh; */
+
+  /* Gray 1 */
+
+  color: #333333;
+}
+
+.Description-text {
+  width: 30vw;
+  /* padding: 5vh; */
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  /* line-height: 36px; */
+  letter-spacing: -0.035em;
+
+  /* Gray 2 */
+
+  color: #4F4F4F;
+}
+
+.App-heading {
+  position: absolute;
+  width: 203px;
+  height: 25px;
+  left: 77px;
+  top: 10px;
+
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 35px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+
+  color: #333333;
+}
+
+.Back-button {
+  /* padding: 5vh; */
+  /* position: absolute; */
+  width: 17vw;
+  height: 8vh;
+  background: #333333;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  /* identical to box height */
+
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  margin-top: 20vh;
+}
+
+.App-footer {
+  /* position: absolute; */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #BDBDBD;
+}
+
+@media only screen and (max-width: 768px) {
+
+  /* For mobile phones: */
+  .App {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .App-header {
+    flex-direction: column;
+  }
+
+  .Main-text {
+    /* margin-top: 20vh; */
+    font-size: 48px;
+    width: 90vw;
+  }
+
+  .Description-text {
+    width: 80vw;
+  }
+
+  .Back-button {
+    width: 50vw;
+  }
+}
